@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="w-full bg-indigo-900 text-white flex justify-center py-4">
+      <div className="w-full flex justify-center py-4 bg-indigo-900 text-white">
 
         <div className="container flex justify-between text-lg">
 
@@ -38,7 +38,13 @@ function Navbar() {
               Temas
             </Link>
 
-            Cadastrar tema
+            <Link
+              to="/cadastrartema"
+              className="hover:underline"
+            >
+              Cadastrar tema
+            </Link>
+
             Perfil
 
             <Link
